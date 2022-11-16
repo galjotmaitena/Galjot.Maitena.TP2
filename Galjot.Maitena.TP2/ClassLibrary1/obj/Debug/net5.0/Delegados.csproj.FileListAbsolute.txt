@@ -1,0 +1,12 @@
+C:\Users\maite\source\repos\Galjot.Maitena.TP2\ClassLibrary1\bin\Debug\net5.0\Delegados.deps.json
+C:\Users\maite\source\repos\Galjot.Maitena.TP2\ClassLibrary1\bin\Debug\net5.0\Delegados.dll
+C:\Users\maite\source\repos\Galjot.Maitena.TP2\ClassLibrary1\bin\Debug\net5.0\ref\Delegados.dll
+C:\Users\maite\source\repos\Galjot.Maitena.TP2\ClassLibrary1\bin\Debug\net5.0\Delegados.pdb
+C:\Users\maite\source\repos\Galjot.Maitena.TP2\ClassLibrary1\obj\Debug\net5.0\Delegados.csproj.AssemblyReference.cache
+C:\Users\maite\source\repos\Galjot.Maitena.TP2\ClassLibrary1\obj\Debug\net5.0\Delegados.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maite\source\repos\Galjot.Maitena.TP2\ClassLibrary1\obj\Debug\net5.0\Delegados.AssemblyInfoInputs.cache
+C:\Users\maite\source\repos\Galjot.Maitena.TP2\ClassLibrary1\obj\Debug\net5.0\Delegados.AssemblyInfo.cs
+C:\Users\maite\source\repos\Galjot.Maitena.TP2\ClassLibrary1\obj\Debug\net5.0\Delegados.csproj.CoreCompileInputs.cache
+C:\Users\maite\source\repos\Galjot.Maitena.TP2\ClassLibrary1\obj\Debug\net5.0\Delegados.dll
+C:\Users\maite\source\repos\Galjot.Maitena.TP2\ClassLibrary1\obj\Debug\net5.0\ref\Delegados.dll
+C:\Users\maite\source\repos\Galjot.Maitena.TP2\ClassLibrary1\obj\Debug\net5.0\Delegados.pdb

@@ -1,0 +1,99 @@
+C:\Users\maite\source\repos\Galjot.Maitena.TP2\FrmGenerala\bin\Debug\net5.0-windows\FrmGenerala.exe
+C:\Users\maite\source\repos\Galjot.Maitena.TP2\FrmGenerala\bin\Debug\net5.0-windows\FrmGenerala.deps.json
+C:\Users\maite\source\repos\Galjot.Maitena.TP2\FrmGenerala\bin\Debug\net5.0-windows\FrmGenerala.runtimeconfig.json
+C:\Users\maite\source\repos\Galjot.Maitena.TP2\FrmGenerala\bin\Debug\net5.0-windows\FrmGenerala.runtimeconfig.dev.json
+C:\Users\maite\source\repos\Galjot.Maitena.TP2\FrmGenerala\bin\Debug\net5.0-windows\FrmGenerala.dll
+C:\Users\maite\source\repos\Galjot.Maitena.TP2\FrmGenerala\bin\Debug\net5.0-windows\ref\FrmGenerala.dll
+C:\Users\maite\source\repos\Galjot.Maitena.TP2\FrmGenerala\bin\Debug\net5.0-windows\FrmGenerala.pdb
+C:\Users\maite\source\repos\Galjot.Maitena.TP2\FrmGenerala\obj\Debug\net5.0-windows\FrmGenerala.csproj.AssemblyReference.cache
+C:\Users\maite\source\repos\Galjot.Maitena.TP2\FrmGenerala\obj\Debug\net5.0-windows\FrmGenerala.FrmInicio.resources
+C:\Users\maite\source\repos\Galjot.Maitena.TP2\FrmGenerala\obj\Debug\net5.0-windows\FrmGenerala.Properties.Resources.resources
+C:\Users\maite\source\repos\Galjot.Maitena.TP2\FrmGenerala\obj\Debug\net5.0-windows\FrmGenerala.csproj.GenerateResource.cache
+C:\Users\maite\source\repos\Galjot.Maitena.TP2\FrmGenerala\obj\Debug\net5.0-windows\FrmGenerala.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maite\source\repos\Galjot.Maitena.TP2\FrmGenerala\obj\Debug\net5.0-windows\FrmGenerala.AssemblyInfoInputs.cache
+C:\Users\maite\source\repos\Galjot.Maitena.TP2\FrmGenerala\obj\Debug\net5.0-windows\FrmGenerala.AssemblyInfo.cs
+C:\Users\maite\source\repos\Galjot.Maitena.TP2\FrmGenerala\obj\Debug\net5.0-windows\FrmGenerala.csproj.CoreCompileInputs.cache
+C:\Users\maite\source\repos\Galjot.Maitena.TP2\FrmGenerala\obj\Debug\net5.0-windows\FrmGenerala.dll
+C:\Users\maite\source\repos\Galjot.Maitena.TP2\FrmGenerala\obj\Debug\net5.0-windows\ref\FrmGenerala.dll
+C:\Users\maite\source\repos\Galjot.Maitena.TP2\FrmGenerala\obj\Debug\net5.0-windows\FrmGenerala.pdb
+C:\Users\maite\source\repos\Galjot.Maitena.TP2\FrmGenerala\obj\Debug\net5.0-windows\FrmGenerala.genruntimeconfig.cache
+C:\Users\maite\source\repos\Galjot.Maitena.TP2\FrmGenerala\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
+C:\Users\maite\source\repos\Galjot.Maitena.TP2\FrmGenerala\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\maite\source\repos\Galjot.Maitena.TP2\FrmGenerala\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\maite\source\repos\Galjot.Maitena.TP2\FrmGenerala\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\maite\source\repos\Galjot.Maitena.TP2\FrmGenerala\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\maite\source\repos\Galjot.Maitena.TP2\FrmGenerala\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\maite\source\repos\Galjot.Maitena.TP2\FrmGenerala\obj\Debug\net5.0-windows\FrmGenerala.FrmJuego.resources
+C:\Users\maite\source\repos\Galjot.Maitena.TP2\FrmGenerala\obj\Debug\net5.0-windows\FrmGenerala.FrmPerfil.resources
+C:\Users\maite\source\repos\Galjot.Maitena.TP2\FrmGenerala\obj\Debug\net5.0-windows\FrmGenerala.csproj.CopyComplete
+C:\Users\maite\source\repos\Galjot.Maitena.TP2\FrmGenerala\obj\Debug\net5.0-windows\FrmGenerala.FrmLogin.resources
+C:\Users\maite\source\repos\Galjot.Maitena.TP2\FrmGenerala\obj\Debug\net5.0-windows\FrmGenerala.FrmRegistrarse.resources
+C:\Users\maite\source\repos\Galjot.Maitena.TP2\FrmGenerala\bin\Debug\net5.0-windows\LibreriaDeClases.dll
+C:\Users\maite\source\repos\Galjot.Maitena.TP2\FrmGenerala\bin\Debug\net5.0-windows\LibreriaDeClases.pdb
+C:\Users\maite\source\repos\Galjot.Maitena.TP2\FrmGenerala\obj\Debug\net5.0-windows\FrmGenerala.FrmListaJugadores.resources
+D:\UTN CURSADA\Prueba\Prueba\Galjot.Maitena.TP2\FrmGenerala\obj\Debug\net5.0-windows\FrmGenerala.csproj.AssemblyReference.cache
+D:\UTN CURSADA\Prueba\Prueba\Galjot.Maitena.TP2\FrmGenerala\obj\Debug\net5.0-windows\FrmGenerala.FrmInicio.resources
+D:\UTN CURSADA\Prueba\Prueba\Galjot.Maitena.TP2\FrmGenerala\obj\Debug\net5.0-windows\FrmGenerala.FrmJuego.resources
+D:\UTN CURSADA\Prueba\Prueba\Galjot.Maitena.TP2\FrmGenerala\obj\Debug\net5.0-windows\FrmGenerala.FrmListaJugadores.resources
+D:\UTN CURSADA\Prueba\Prueba\Galjot.Maitena.TP2\FrmGenerala\obj\Debug\net5.0-windows\FrmGenerala.FrmLogin.resources
+D:\UTN CURSADA\Prueba\Prueba\Galjot.Maitena.TP2\FrmGenerala\obj\Debug\net5.0-windows\FrmGenerala.FrmPerfil.resources
+D:\UTN CURSADA\Prueba\Prueba\Galjot.Maitena.TP2\FrmGenerala\obj\Debug\net5.0-windows\FrmGenerala.FrmRegistrarse.resources
+D:\UTN CURSADA\Prueba\Prueba\Galjot.Maitena.TP2\FrmGenerala\obj\Debug\net5.0-windows\FrmGenerala.Properties.Resources.resources
+D:\UTN CURSADA\Prueba\Prueba\Galjot.Maitena.TP2\FrmGenerala\obj\Debug\net5.0-windows\FrmGenerala.csproj.GenerateResource.cache
+D:\UTN CURSADA\Prueba\Prueba\Galjot.Maitena.TP2\FrmGenerala\obj\Debug\net5.0-windows\FrmGenerala.GeneratedMSBuildEditorConfig.editorconfig
+D:\UTN CURSADA\Prueba\Prueba\Galjot.Maitena.TP2\FrmGenerala\obj\Debug\net5.0-windows\FrmGenerala.AssemblyInfoInputs.cache
+D:\UTN CURSADA\Prueba\Prueba\Galjot.Maitena.TP2\FrmGenerala\obj\Debug\net5.0-windows\FrmGenerala.AssemblyInfo.cs
+D:\UTN CURSADA\Prueba\Prueba\Galjot.Maitena.TP2\FrmGenerala\obj\Debug\net5.0-windows\FrmGenerala.csproj.CoreCompileInputs.cache
+D:\UTN CURSADA\Prueba\Prueba\Galjot.Maitena.TP2\FrmGenerala\obj\Debug\net5.0-windows\FrmGenerala.dll
+D:\UTN CURSADA\Prueba\Prueba\Galjot.Maitena.TP2\FrmGenerala\obj\Debug\net5.0-windows\ref\FrmGenerala.dll
+D:\UTN CURSADA\Prueba\Prueba\Galjot.Maitena.TP2\FrmGenerala\obj\Debug\net5.0-windows\FrmGenerala.pdb
+D:\UTN CURSADA\Prueba\Prueba\Galjot.Maitena.TP2\FrmGenerala\bin\Debug\net5.0-windows\FrmGenerala.exe
+D:\UTN CURSADA\Prueba\Prueba\Galjot.Maitena.TP2\FrmGenerala\bin\Debug\net5.0-windows\FrmGenerala.deps.json
+D:\UTN CURSADA\Prueba\Prueba\Galjot.Maitena.TP2\FrmGenerala\bin\Debug\net5.0-windows\FrmGenerala.runtimeconfig.json
+D:\UTN CURSADA\Prueba\Prueba\Galjot.Maitena.TP2\FrmGenerala\bin\Debug\net5.0-windows\FrmGenerala.runtimeconfig.dev.json
+D:\UTN CURSADA\Prueba\Prueba\Galjot.Maitena.TP2\FrmGenerala\bin\Debug\net5.0-windows\FrmGenerala.dll
+D:\UTN CURSADA\Prueba\Prueba\Galjot.Maitena.TP2\FrmGenerala\bin\Debug\net5.0-windows\ref\FrmGenerala.dll
+D:\UTN CURSADA\Prueba\Prueba\Galjot.Maitena.TP2\FrmGenerala\bin\Debug\net5.0-windows\FrmGenerala.pdb
+D:\UTN CURSADA\Prueba\Prueba\Galjot.Maitena.TP2\FrmGenerala\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
+D:\UTN CURSADA\Prueba\Prueba\Galjot.Maitena.TP2\FrmGenerala\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
+D:\UTN CURSADA\Prueba\Prueba\Galjot.Maitena.TP2\FrmGenerala\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
+D:\UTN CURSADA\Prueba\Prueba\Galjot.Maitena.TP2\FrmGenerala\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
+D:\UTN CURSADA\Prueba\Prueba\Galjot.Maitena.TP2\FrmGenerala\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\UTN CURSADA\Prueba\Prueba\Galjot.Maitena.TP2\FrmGenerala\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\UTN CURSADA\Prueba\Prueba\Galjot.Maitena.TP2\FrmGenerala\bin\Debug\net5.0-windows\LibreriaDeClases.dll
+D:\UTN CURSADA\Prueba\Prueba\Galjot.Maitena.TP2\FrmGenerala\bin\Debug\net5.0-windows\LibreriaDeClases.pdb
+D:\UTN CURSADA\Prueba\Prueba\Galjot.Maitena.TP2\FrmGenerala\obj\Debug\net5.0-windows\FrmGenerala.csproj.CopyComplete
+D:\UTN CURSADA\Prueba\Prueba\Galjot.Maitena.TP2\FrmGenerala\obj\Debug\net5.0-windows\FrmGenerala.genruntimeconfig.cache
+C:\Users\maite\Prueba\Prueba\Galjot.Maitena.TP2\FrmGenerala\bin\Debug\net5.0-windows\FrmGenerala.exe
+C:\Users\maite\Prueba\Prueba\Galjot.Maitena.TP2\FrmGenerala\bin\Debug\net5.0-windows\FrmGenerala.deps.json
+C:\Users\maite\Prueba\Prueba\Galjot.Maitena.TP2\FrmGenerala\bin\Debug\net5.0-windows\FrmGenerala.runtimeconfig.json
+C:\Users\maite\Prueba\Prueba\Galjot.Maitena.TP2\FrmGenerala\bin\Debug\net5.0-windows\FrmGenerala.runtimeconfig.dev.json
+C:\Users\maite\Prueba\Prueba\Galjot.Maitena.TP2\FrmGenerala\bin\Debug\net5.0-windows\FrmGenerala.dll
+C:\Users\maite\Prueba\Prueba\Galjot.Maitena.TP2\FrmGenerala\bin\Debug\net5.0-windows\ref\FrmGenerala.dll
+C:\Users\maite\Prueba\Prueba\Galjot.Maitena.TP2\FrmGenerala\bin\Debug\net5.0-windows\FrmGenerala.pdb
+C:\Users\maite\Prueba\Prueba\Galjot.Maitena.TP2\FrmGenerala\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
+C:\Users\maite\Prueba\Prueba\Galjot.Maitena.TP2\FrmGenerala\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\maite\Prueba\Prueba\Galjot.Maitena.TP2\FrmGenerala\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\maite\Prueba\Prueba\Galjot.Maitena.TP2\FrmGenerala\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\maite\Prueba\Prueba\Galjot.Maitena.TP2\FrmGenerala\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\maite\Prueba\Prueba\Galjot.Maitena.TP2\FrmGenerala\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\maite\Prueba\Prueba\Galjot.Maitena.TP2\FrmGenerala\bin\Debug\net5.0-windows\LibreriaDeClases.dll
+C:\Users\maite\Prueba\Prueba\Galjot.Maitena.TP2\FrmGenerala\bin\Debug\net5.0-windows\LibreriaDeClases.pdb
+C:\Users\maite\Prueba\Prueba\Galjot.Maitena.TP2\FrmGenerala\obj\Debug\net5.0-windows\FrmGenerala.csproj.AssemblyReference.cache
+C:\Users\maite\Prueba\Prueba\Galjot.Maitena.TP2\FrmGenerala\obj\Debug\net5.0-windows\FrmGenerala.FrmInicio.resources
+C:\Users\maite\Prueba\Prueba\Galjot.Maitena.TP2\FrmGenerala\obj\Debug\net5.0-windows\FrmGenerala.FrmJuego.resources
+C:\Users\maite\Prueba\Prueba\Galjot.Maitena.TP2\FrmGenerala\obj\Debug\net5.0-windows\FrmGenerala.FrmListaJugadores.resources
+C:\Users\maite\Prueba\Prueba\Galjot.Maitena.TP2\FrmGenerala\obj\Debug\net5.0-windows\FrmGenerala.FrmLogin.resources
+C:\Users\maite\Prueba\Prueba\Galjot.Maitena.TP2\FrmGenerala\obj\Debug\net5.0-windows\FrmGenerala.FrmPerfil.resources
+C:\Users\maite\Prueba\Prueba\Galjot.Maitena.TP2\FrmGenerala\obj\Debug\net5.0-windows\FrmGenerala.FrmRegistrarse.resources
+C:\Users\maite\Prueba\Prueba\Galjot.Maitena.TP2\FrmGenerala\obj\Debug\net5.0-windows\FrmGenerala.Properties.Resources.resources
+C:\Users\maite\Prueba\Prueba\Galjot.Maitena.TP2\FrmGenerala\obj\Debug\net5.0-windows\FrmGenerala.csproj.GenerateResource.cache
+C:\Users\maite\Prueba\Prueba\Galjot.Maitena.TP2\FrmGenerala\obj\Debug\net5.0-windows\FrmGenerala.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maite\Prueba\Prueba\Galjot.Maitena.TP2\FrmGenerala\obj\Debug\net5.0-windows\FrmGenerala.AssemblyInfoInputs.cache
+C:\Users\maite\Prueba\Prueba\Galjot.Maitena.TP2\FrmGenerala\obj\Debug\net5.0-windows\FrmGenerala.AssemblyInfo.cs
+C:\Users\maite\Prueba\Prueba\Galjot.Maitena.TP2\FrmGenerala\obj\Debug\net5.0-windows\FrmGenerala.csproj.CoreCompileInputs.cache
+C:\Users\maite\Prueba\Prueba\Galjot.Maitena.TP2\FrmGenerala\obj\Debug\net5.0-windows\FrmGenerala.csproj.CopyComplete
+C:\Users\maite\Prueba\Prueba\Galjot.Maitena.TP2\FrmGenerala\obj\Debug\net5.0-windows\FrmGenerala.dll
+C:\Users\maite\Prueba\Prueba\Galjot.Maitena.TP2\FrmGenerala\obj\Debug\net5.0-windows\ref\FrmGenerala.dll
+C:\Users\maite\Prueba\Prueba\Galjot.Maitena.TP2\FrmGenerala\obj\Debug\net5.0-windows\FrmGenerala.pdb
+C:\Users\maite\Prueba\Prueba\Galjot.Maitena.TP2\FrmGenerala\obj\Debug\net5.0-windows\FrmGenerala.genruntimeconfig.cache

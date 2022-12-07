@@ -8,6 +8,8 @@ namespace LibreriaDeClases
 {
     public class Jugador
     {
+        private int id;
+
         private string nombre;
         private Sexo sexo;
         private string clave;
@@ -15,9 +17,12 @@ namespace LibreriaDeClases
         private int victorias;
         private int derrotas;
         private int abandonos;
+        private int empates;
 
-        public Jugador(string nombre, string clave, Sexo sexo)
+        public Jugador(string nombre, string clave, Sexo sexo, int id)
         {
+            this.id = id;
+
             this.nombre = nombre;
             this.clave = clave;
             this.sexo = sexo;
@@ -25,9 +30,23 @@ namespace LibreriaDeClases
             this.victorias = 0;
             this.derrotas = 0;
             this.abandonos = 0;
+            this.empates = 0;
+        }
+
+        public Jugador(string nombre, string clave, Sexo sexo, int id, int victorias, int derrotas, int empates, int abandonos) : this(nombre, clave, sexo, id)
+        {
+            this.victorias = victorias;
+            this.derrotas = derrotas;
+            this.abandonos = abandonos;
+            this.empates = empates;
         }
 
         #region Setters y Getters
+        public int ID 
+        { 
+            get { return this.id; } 
+        }
+
         public string Nombre
         {
             get { return this.nombre; }
@@ -56,6 +75,12 @@ namespace LibreriaDeClases
             set { this.abandonos = value; }
         }
 
+        public int Empates
+        {
+            get { return this.empates; }
+            set { this.empates = value; }
+        }
+
         public Sexo Sexo
         {
             get { return this.sexo; }
@@ -74,7 +99,7 @@ namespace LibreriaDeClases
 
         public override string ToString()
         {
-            return $"{this.nombre} {this.clave} {this.sexo}";
+            return $"{this.id} {this.nombre}";
         }
 
         public override bool Equals(object obj)

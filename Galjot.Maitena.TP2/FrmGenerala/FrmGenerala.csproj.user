@@ -13,10 +13,16 @@
     <Compile Update="FrmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="FrmPartidas.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="FrmPerfil.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FrmRegistrarse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmReglas.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\maite\\Prueba\\Prueba\\Galjot.Maitena.TP2\\ClassLibrary1\\LibreriaDeClases.csproj": {}
+    "C:\\Users\\maite\\source\\repos\\Galjot.Maitena.TP2\\ClassLibrary1\\LibreriaDeClases.csproj": {}
   },
   "projects": {
-    "C:\\Users\\maite\\Prueba\\Prueba\\Galjot.Maitena.TP2\\ClassLibrary1\\LibreriaDeClases.csproj": {
+    "C:\\Users\\maite\\source\\repos\\Galjot.Maitena.TP2\\ClassLibrary1\\LibreriaDeClases.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\maite\\Prueba\\Prueba\\Galjot.Maitena.TP2\\ClassLibrary1\\LibreriaDeClases.csproj",
+        "projectUniqueName": "C:\\Users\\maite\\source\\repos\\Galjot.Maitena.TP2\\ClassLibrary1\\LibreriaDeClases.csproj",
         "projectName": "LibreriaDeClases",
-        "projectPath": "C:\\Users\\maite\\Prueba\\Prueba\\Galjot.Maitena.TP2\\ClassLibrary1\\LibreriaDeClases.csproj",
+        "projectPath": "C:\\Users\\maite\\source\\repos\\Galjot.Maitena.TP2\\ClassLibrary1\\LibreriaDeClases.csproj",
         "packagesPath": "C:\\Users\\maite\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\maite\\Prueba\\Prueba\\Galjot.Maitena.TP2\\ClassLibrary1\\obj\\",
+        "outputPath": "C:\\Users\\maite\\source\\repos\\Galjot.Maitena.TP2\\ClassLibrary1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\maite\\AppData\\Roaming\\NuGet\\NuGet.Config",

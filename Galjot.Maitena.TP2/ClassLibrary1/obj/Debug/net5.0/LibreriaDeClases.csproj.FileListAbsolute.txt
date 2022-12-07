@@ -9,7 +9,6 @@ C:\Users\maite\source\repos\Galjot.Maitena.TP2\ClassLibrary1\obj\Debug\net5.0\Li
 C:\Users\maite\source\repos\Galjot.Maitena.TP2\ClassLibrary1\obj\Debug\net5.0\LibreriaDeClases.dll
 C:\Users\maite\source\repos\Galjot.Maitena.TP2\ClassLibrary1\obj\Debug\net5.0\ref\LibreriaDeClases.dll
 C:\Users\maite\source\repos\Galjot.Maitena.TP2\ClassLibrary1\obj\Debug\net5.0\LibreriaDeClases.pdb
-C:\Users\maite\source\repos\Galjot.Maitena.TP2\ClassLibrary1\obj\Debug\net5.0\LibreriaDeClases.csproj.AssemblyReference.cache
 D:\UTN CURSADA\Prueba\Prueba\Galjot.Maitena.TP2\ClassLibrary1\bin\Debug\net5.0\LibreriaDeClases.deps.json
 D:\UTN CURSADA\Prueba\Prueba\Galjot.Maitena.TP2\ClassLibrary1\bin\Debug\net5.0\LibreriaDeClases.dll
 D:\UTN CURSADA\Prueba\Prueba\Galjot.Maitena.TP2\ClassLibrary1\bin\Debug\net5.0\ref\LibreriaDeClases.dll
@@ -34,3 +33,16 @@ C:\Users\maite\Prueba\Prueba\Galjot.Maitena.TP2\ClassLibrary1\obj\Debug\net5.0\L
 C:\Users\maite\Prueba\Prueba\Galjot.Maitena.TP2\ClassLibrary1\obj\Debug\net5.0\ref\LibreriaDeClases.dll
 C:\Users\maite\Prueba\Prueba\Galjot.Maitena.TP2\ClassLibrary1\obj\Debug\net5.0\LibreriaDeClases.pdb
 C:\Users\maite\Prueba\Prueba\Galjot.Maitena.TP2\ClassLibrary1\obj\Debug\net5.0\LibreriaDeClases.csproj.AssemblyReference.cache
+C:\Users\maite\NuestroRepo\Galjot.Maitena.TP2\ClassLibrary1\bin\Debug\net5.0\LibreriaDeClases.deps.json
+C:\Users\maite\NuestroRepo\Galjot.Maitena.TP2\ClassLibrary1\bin\Debug\net5.0\LibreriaDeClases.dll
+C:\Users\maite\NuestroRepo\Galjot.Maitena.TP2\ClassLibrary1\bin\Debug\net5.0\ref\LibreriaDeClases.dll
+C:\Users\maite\NuestroRepo\Galjot.Maitena.TP2\ClassLibrary1\bin\Debug\net5.0\LibreriaDeClases.pdb
+C:\Users\maite\NuestroRepo\Galjot.Maitena.TP2\ClassLibrary1\obj\Debug\net5.0\LibreriaDeClases.csproj.AssemblyReference.cache
+C:\Users\maite\NuestroRepo\Galjot.Maitena.TP2\ClassLibrary1\obj\Debug\net5.0\LibreriaDeClases.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maite\NuestroRepo\Galjot.Maitena.TP2\ClassLibrary1\obj\Debug\net5.0\LibreriaDeClases.AssemblyInfoInputs.cache
+C:\Users\maite\NuestroRepo\Galjot.Maitena.TP2\ClassLibrary1\obj\Debug\net5.0\LibreriaDeClases.AssemblyInfo.cs
+C:\Users\maite\NuestroRepo\Galjot.Maitena.TP2\ClassLibrary1\obj\Debug\net5.0\LibreriaDeClases.csproj.CoreCompileInputs.cache
+C:\Users\maite\NuestroRepo\Galjot.Maitena.TP2\ClassLibrary1\obj\Debug\net5.0\LibreriaDeClases.dll
+C:\Users\maite\NuestroRepo\Galjot.Maitena.TP2\ClassLibrary1\obj\Debug\net5.0\ref\LibreriaDeClases.dll
+C:\Users\maite\NuestroRepo\Galjot.Maitena.TP2\ClassLibrary1\obj\Debug\net5.0\LibreriaDeClases.pdb
+C:\Users\maite\source\repos\Galjot.Maitena.TP2\ClassLibrary1\obj\Debug\net5.0\LibreriaDeClases.csproj.AssemblyReference.cache

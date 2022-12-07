@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="LibreriaDeClases.Archivos">
+    <Position X="4.5" Y="5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAQAAAAAAAAAGAAAAAAAAAgMAAAAAAAAAAAA=</HashCode>
+      <FileName>Archivos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibreriaDeClases.BaseDeDatos&lt;T&gt;">
+    <Position X="9.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAwAAAAAEABCAAAAAAAAAAAAIAAAAAAAAAAAAE=</HashCode>
+      <FileName>BaseDeDatos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibreriaDeClases.JSON">
+    <Position X="12.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAACAAAAAAAAAAAAQQAAAAAQAAA=</HashCode>
+      <FileName>JSON.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="LibreriaDeClases.Jugador">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>BQAAAAEAAACAgACEgAAAgQAAAAEAAIAAAAAQQAQAEmA=</HashCode>
+      <FileName>Jugador.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibreriaDeClases.ListaJugadores">
+    <Position X="10" Y="4" Width="1.5" />
+    <InheritanceLine Type="LibreriaDeClases.BaseDeDatos&lt;T&gt;" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="12" Y="0.812" />
+        <Point X="12.3" Y="0.812" />
+        <Point X="12.3" Y="3.7" />
+        <Point X="10.75" Y="3.7" />
+        <Point X="10.75" Y="4" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAwAQAAAABACAAAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ListaJugadores.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibreriaDeClases.Partida">
+    <Position X="2.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAQhAAAAKUAAAKAAAAAAAAQAAAAAAAAACAAAQ=</HashCode>
+      <FileName>Partida.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibreriaDeClases.Puntos">
+    <Position X="7" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAhAAJABQECAIQBEICAABCAUCAFQBAgBAAAAAAAI=</HashCode>
+      <FileName>Puntos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibreriaDeClases.Reglas">
+    <Position X="12.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAARAAABAAAAAAAAAAE=</HashCode>
+      <FileName>Reglas.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibreriaDeClases.Turno">
+    <Position X="5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAACACAAAgAgAAAAAA=</HashCode>
+      <FileName>Turno.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="LibreriaDeClases.ISerializacion">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>ISerializacion.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Sexo">
+    <Position X="2.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Enumerados.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Jugada">
+    <Position X="2.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAEAAAAAAAQAAEABAgAAAAAAAAA=</HashCode>
+      <FileName>Enumerados.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="ValidarPuntos2" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Delegados.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ValidarPuntos" Collapsed="true">
+    <Position X="0.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Delegados.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="ValidarTxt" Collapsed="true">
+    <Position X="0.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Delegados.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

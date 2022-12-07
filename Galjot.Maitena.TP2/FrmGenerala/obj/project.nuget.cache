@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Wy2HsOXGLiPfP5W8KqtXxp2xVyOZzmJYg0XghdDQCS21lG84PC9H2K4/LHLSVlEmJpCkKDsqotddqxhOi2tjZQ==",
+  "dgSpecHash": "SL+MPpcNvAWE7VnxNHDeKv3SiPyEbT9pnMTVVBRIP13HFTI1dvzr0lnYQFGudCcGCMJG7++UeNBMI6nk3l0U8Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\maite\\Prueba\\Prueba\\Galjot.Maitena.TP2\\FrmGenerala\\FrmGenerala.csproj",
+  "projectFilePath": "C:\\Users\\maite\\source\\repos\\Galjot.Maitena.TP2\\FrmGenerala\\FrmGenerala.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\maite\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\maite\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

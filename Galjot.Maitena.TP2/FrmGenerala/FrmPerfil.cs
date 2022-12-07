@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LibreriaDeClases;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,20 +13,29 @@ namespace FrmGenerala
 {
     public partial class FrmPerfil : Form
     {
-        public FrmPerfil()
+        private Jugador usuario;
+
+        public FrmPerfil(Jugador jugador)
         {
             InitializeComponent();
+            this.usuario = jugador;
         }
 
-        private void btnLogin_Click(object sender, EventArgs e)
+        private void FrmPerfil_Load(object sender, EventArgs e)
         {
-            
-            FrmLogin login = new FrmLogin();
+            this.txtNombre.Text = this.usuario.Nombre;
+            this.txtNombre.Enabled = false;
 
-            if(login.ShowDialog() == DialogResult.OK)
-            {
-                this.txtNombre.Text = login.NombreJugador;
-            }
+            this.lblAbandonos.Text = this.usuario.Abandonos.ToString();
+            this.lblVictorias.Text = this.usuario.Victorias.ToString();
+            this.lblDerrotas.Text = this.usuario.Derrotas.ToString();
+            this.lblEmpates.Text = this.usuario.Empates.ToString();
+        }
+
+        private void btnLogOut_Click(object sender, EventArgs e)
+        {
+            DialogResult = DialogResult.OK;
+            this.Close();
         }
     }
 }

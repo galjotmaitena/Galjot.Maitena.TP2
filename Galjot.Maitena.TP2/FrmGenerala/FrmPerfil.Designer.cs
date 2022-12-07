@@ -30,32 +30,22 @@ namespace FrmGenerala
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmPerfil));
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.btnLogin = new System.Windows.Forms.Button();
+            this.btnLogOut = new System.Windows.Forms.Button();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.lblVictorias = new System.Windows.Forms.Label();
+            this.lblDerrotas = new System.Windows.Forms.Label();
+            this.lblAbandonos = new System.Windows.Forms.Label();
+            this.lblEmpates = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Location = new System.Drawing.Point(121, 89);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(136, 134);
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
             // 
             // label1
             // 
@@ -63,7 +53,7 @@ namespace FrmGenerala
             this.label1.BackColor = System.Drawing.Color.Firebrick;
             this.label1.Font = new System.Drawing.Font("Perpetua", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(284, 89);
+            this.label1.Location = new System.Drawing.Point(50, 42);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(96, 27);
             this.label1.TabIndex = 3;
@@ -72,39 +62,39 @@ namespace FrmGenerala
             // txtNombre
             // 
             this.txtNombre.Enabled = false;
-            this.txtNombre.Location = new System.Drawing.Point(284, 128);
+            this.txtNombre.Location = new System.Drawing.Point(152, 42);
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(318, 27);
+            this.txtNombre.Size = new System.Drawing.Size(216, 27);
             this.txtNombre.TabIndex = 4;
             // 
             // pictureBox4
             // 
-            this.pictureBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.pictureBox4.Location = new System.Drawing.Point(89, 67);
+            this.pictureBox4.BackColor = System.Drawing.Color.Firebrick;
+            this.pictureBox4.Location = new System.Drawing.Point(24, 23);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(536, 321);
+            this.pictureBox4.Size = new System.Drawing.Size(367, 262);
             this.pictureBox4.TabIndex = 5;
             this.pictureBox4.TabStop = false;
             // 
-            // btnLogin
+            // btnLogOut
             // 
-            this.btnLogin.BackColor = System.Drawing.Color.Gold;
-            this.btnLogin.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnLogin.ForeColor = System.Drawing.Color.Crimson;
-            this.btnLogin.Location = new System.Drawing.Point(451, 185);
-            this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(151, 38);
-            this.btnLogin.TabIndex = 6;
-            this.btnLogin.Text = "Login";
-            this.btnLogin.UseVisualStyleBackColor = false;
-            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
+            this.btnLogOut.BackColor = System.Drawing.Color.Gold;
+            this.btnLogOut.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnLogOut.ForeColor = System.Drawing.Color.Crimson;
+            this.btnLogOut.Location = new System.Drawing.Point(217, 233);
+            this.btnLogOut.Name = "btnLogOut";
+            this.btnLogOut.Size = new System.Drawing.Size(151, 38);
+            this.btnLogOut.TabIndex = 6;
+            this.btnLogOut.Text = "Log out";
+            this.btnLogOut.UseVisualStyleBackColor = false;
+            this.btnLogOut.Click += new System.EventHandler(this.btnLogOut_Click);
             // 
             // pictureBox5
             // 
             this.pictureBox5.BackColor = System.Drawing.Color.LightCoral;
-            this.pictureBox5.Location = new System.Drawing.Point(284, 246);
+            this.pictureBox5.Location = new System.Drawing.Point(50, 91);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(318, 118);
+            this.pictureBox5.Size = new System.Drawing.Size(318, 126);
             this.pictureBox5.TabIndex = 7;
             this.pictureBox5.TabStop = false;
             // 
@@ -113,7 +103,7 @@ namespace FrmGenerala
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.LightCoral;
             this.label2.Font = new System.Drawing.Font("Perpetua", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(292, 254);
+            this.label2.Location = new System.Drawing.Point(74, 99);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(93, 27);
             this.label2.TabIndex = 8;
@@ -124,7 +114,7 @@ namespace FrmGenerala
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.LightCoral;
             this.label3.Font = new System.Drawing.Font("Perpetua", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(292, 307);
+            this.label3.Location = new System.Drawing.Point(74, 153);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(92, 27);
             this.label3.TabIndex = 9;
@@ -135,7 +125,7 @@ namespace FrmGenerala
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.LightCoral;
             this.label4.Font = new System.Drawing.Font("Perpetua", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(435, 254);
+            this.label4.Location = new System.Drawing.Point(217, 99);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(113, 27);
             this.label4.TabIndex = 10;
@@ -146,79 +136,79 @@ namespace FrmGenerala
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.LightCoral;
             this.label5.Font = new System.Drawing.Font("Perpetua", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label5.Location = new System.Drawing.Point(435, 307);
+            this.label5.Location = new System.Drawing.Point(217, 153);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(124, 27);
+            this.label5.Size = new System.Drawing.Size(90, 27);
             this.label5.TabIndex = 11;
-            this.label5.Text = "Mejor Racha:";
+            this.label5.Text = "Empates:";
             // 
-            // label6
+            // lblVictorias
             // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.LightCoral;
-            this.label6.Font = new System.Drawing.Font("Perpetua", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label6.Location = new System.Drawing.Point(321, 281);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(23, 27);
-            this.label6.TabIndex = 12;
-            this.label6.Text = "0";
+            this.lblVictorias.AutoSize = true;
+            this.lblVictorias.BackColor = System.Drawing.Color.LightCoral;
+            this.lblVictorias.Font = new System.Drawing.Font("Perpetua", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblVictorias.Location = new System.Drawing.Point(102, 126);
+            this.lblVictorias.Name = "lblVictorias";
+            this.lblVictorias.Size = new System.Drawing.Size(23, 27);
+            this.lblVictorias.TabIndex = 12;
+            this.lblVictorias.Text = "0";
             // 
-            // label7
+            // lblDerrotas
             // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.LightCoral;
-            this.label7.Font = new System.Drawing.Font("Perpetua", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label7.Location = new System.Drawing.Point(321, 334);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(23, 27);
-            this.label7.TabIndex = 13;
-            this.label7.Text = "0";
+            this.lblDerrotas.AutoSize = true;
+            this.lblDerrotas.BackColor = System.Drawing.Color.LightCoral;
+            this.lblDerrotas.Font = new System.Drawing.Font("Perpetua", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblDerrotas.Location = new System.Drawing.Point(102, 180);
+            this.lblDerrotas.Name = "lblDerrotas";
+            this.lblDerrotas.Size = new System.Drawing.Size(23, 27);
+            this.lblDerrotas.TabIndex = 13;
+            this.lblDerrotas.Text = "0";
             // 
-            // label8
+            // lblAbandonos
             // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.LightCoral;
-            this.label8.Font = new System.Drawing.Font("Perpetua", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label8.Location = new System.Drawing.Point(479, 281);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(23, 27);
-            this.label8.TabIndex = 14;
-            this.label8.Text = "0";
+            this.lblAbandonos.AutoSize = true;
+            this.lblAbandonos.BackColor = System.Drawing.Color.LightCoral;
+            this.lblAbandonos.Font = new System.Drawing.Font("Perpetua", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblAbandonos.Location = new System.Drawing.Point(264, 126);
+            this.lblAbandonos.Name = "lblAbandonos";
+            this.lblAbandonos.Size = new System.Drawing.Size(23, 27);
+            this.lblAbandonos.TabIndex = 14;
+            this.lblAbandonos.Text = "0";
             // 
-            // label9
+            // lblEmpates
             // 
-            this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.LightCoral;
-            this.label9.Font = new System.Drawing.Font("Perpetua", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label9.Location = new System.Drawing.Point(479, 334);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(23, 27);
-            this.label9.TabIndex = 15;
-            this.label9.Text = "0";
+            this.lblEmpates.AutoSize = true;
+            this.lblEmpates.BackColor = System.Drawing.Color.LightCoral;
+            this.lblEmpates.Font = new System.Drawing.Font("Perpetua", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblEmpates.Location = new System.Drawing.Point(264, 180);
+            this.lblEmpates.Name = "lblEmpates";
+            this.lblEmpates.Size = new System.Drawing.Size(23, 27);
+            this.lblEmpates.TabIndex = 15;
+            this.lblEmpates.Text = "0";
             // 
             // FrmPerfil
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(724, 450);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
+            this.ClientSize = new System.Drawing.Size(422, 311);
+            this.Controls.Add(this.lblEmpates);
+            this.Controls.Add(this.lblAbandonos);
+            this.Controls.Add(this.lblDerrotas);
+            this.Controls.Add(this.lblVictorias);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.btnLogin);
+            this.Controls.Add(this.btnLogOut);
             this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox4);
             this.Name = "FrmPerfil";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.TopMost = true;
+            this.Load += new System.EventHandler(this.FrmPerfil_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.ResumeLayout(false);
@@ -227,19 +217,19 @@ namespace FrmGenerala
         }
 
         #endregion
-        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.Button btnLogin;
+        private System.Windows.Forms.Button btnLogOut;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label lblVictorias;
+        private System.Windows.Forms.Label lblDerrotas;
+        private System.Windows.Forms.Label lblAbandonos;
         private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label lblEmpates;
     }
 }

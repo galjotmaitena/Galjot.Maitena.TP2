@@ -33,6 +33,11 @@ namespace LibreriaDeClases
 
         #endregion
 
+        /// <summary>
+        /// Designa numeros random entre el 1 y el 6, que luego seran designados a los dados.
+        /// </summary>
+        /// <param name="cantidadDados"></param> Cantidad de numeros que deben ser asignados.
+        /// <returns></returns> Lista de numeros designados.
         public static List<int> AgregarValores(int cantidadDados)
         {
             Random numeros = new Random();
@@ -40,7 +45,7 @@ namespace LibreriaDeClases
 
             for(int i = 0; i < cantidadDados; i ++)
             {
-                listaNumeros.Add(numeros.Next(1, 6));
+                listaNumeros.Add(numeros.Next(1, 7));
             }
 
             return listaNumeros;

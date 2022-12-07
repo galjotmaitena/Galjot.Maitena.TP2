@@ -75,6 +75,7 @@ namespace FrmGenerala
             this.txtClave.Name = "txtClave";
             this.txtClave.Size = new System.Drawing.Size(272, 27);
             this.txtClave.TabIndex = 3;
+            this.txtClave.UseSystemPasswordChar = true;
             // 
             // btnRegistrarse
             // 
@@ -104,6 +105,7 @@ namespace FrmGenerala
             // 
             // FrmLogin
             // 
+            this.AcceptButton = this.btnIngresar;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));

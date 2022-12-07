@@ -126,6 +126,7 @@ namespace FrmGenerala
             this.gpbSexo.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
+            this.Load += new System.EventHandler(this.FrmRegistrarse_Load);
 
         }
 

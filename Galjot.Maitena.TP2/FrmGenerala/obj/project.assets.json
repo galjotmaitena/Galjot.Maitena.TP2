@@ -478,11 +478,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\maite\\Prueba\\Prueba\\Galjot.Maitena.TP2\\FrmGenerala\\FrmGenerala.csproj",
+      "projectUniqueName": "C:\\Users\\maite\\source\\repos\\Galjot.Maitena.TP2\\FrmGenerala\\FrmGenerala.csproj",
       "projectName": "FrmGenerala",
-      "projectPath": "C:\\Users\\maite\\Prueba\\Prueba\\Galjot.Maitena.TP2\\FrmGenerala\\FrmGenerala.csproj",
+      "projectPath": "C:\\Users\\maite\\source\\repos\\Galjot.Maitena.TP2\\FrmGenerala\\FrmGenerala.csproj",
       "packagesPath": "C:\\Users\\maite\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\maite\\Prueba\\Prueba\\Galjot.Maitena.TP2\\FrmGenerala\\obj\\",
+      "outputPath": "C:\\Users\\maite\\source\\repos\\Galjot.Maitena.TP2\\FrmGenerala\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\maite\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -499,8 +499,8 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "C:\\Users\\maite\\Prueba\\Prueba\\Galjot.Maitena.TP2\\ClassLibrary1\\LibreriaDeClases.csproj": {
-              "projectPath": "C:\\Users\\maite\\Prueba\\Prueba\\Galjot.Maitena.TP2\\ClassLibrary1\\LibreriaDeClases.csproj"
+            "C:\\Users\\maite\\source\\repos\\Galjot.Maitena.TP2\\ClassLibrary1\\LibreriaDeClases.csproj": {
+              "projectPath": "C:\\Users\\maite\\source\\repos\\Galjot.Maitena.TP2\\ClassLibrary1\\LibreriaDeClases.csproj"
             }
           }
         }

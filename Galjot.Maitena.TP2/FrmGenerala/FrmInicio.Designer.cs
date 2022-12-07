@@ -33,6 +33,8 @@ namespace FrmGenerala
             this.btnJugar = new System.Windows.Forms.Button();
             this.btnReglas = new System.Windows.Forms.Button();
             this.btnPerfil = new System.Windows.Forms.Button();
+            this.btnPartidas = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnJugar
@@ -74,18 +76,49 @@ namespace FrmGenerala
             this.btnPerfil.UseVisualStyleBackColor = false;
             this.btnPerfil.Click += new System.EventHandler(this.btnPerfil_Click);
             // 
+            // btnPartidas
+            // 
+            this.btnPartidas.BackColor = System.Drawing.Color.Gold;
+            this.btnPartidas.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnPartidas.ForeColor = System.Drawing.Color.Crimson;
+            this.btnPartidas.Location = new System.Drawing.Point(184, 380);
+            this.btnPartidas.Name = "btnPartidas";
+            this.btnPartidas.Size = new System.Drawing.Size(183, 46);
+            this.btnPartidas.TabIndex = 3;
+            this.btnPartidas.Text = "PARTIDAS";
+            this.btnPartidas.UseVisualStyleBackColor = false;
+            this.btnPartidas.Click += new System.EventHandler(this.btnPartidas_Click);
+            // 
+            // label1
+            // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Cooper Black", 45F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.Color.Gold;
+            this.label1.Location = new System.Drawing.Point(156, 130);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(492, 86);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "GENERALA";
+            // 
             // FrmInicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.btnPartidas);
             this.Controls.Add(this.btnPerfil);
             this.Controls.Add(this.btnReglas);
             this.Controls.Add(this.btnJugar);
+            this.DoubleBuffered = true;
             this.Name = "FrmInicio";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -94,6 +127,8 @@ namespace FrmGenerala
         private System.Windows.Forms.Button btnJugar;
         private System.Windows.Forms.Button btnReglas;
         private System.Windows.Forms.Button btnPerfil;
+        private System.Windows.Forms.Button btnPartidas;
+        private System.Windows.Forms.Label label1;
     }
 }
 

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mysvyDFOSD/Ik20KF5Dl2FzJJzSCnox9j65CsfC78zh2PS3o/9Qr58JLzDAaXzehgss/xBGXx/nczqOY8XjIKw==",
+  "dgSpecHash": "XdMmHwBfHGhcaTKigsnUIboxf/MjlRfTGHPExGn1leaByO0nWFf5Mm+WY181oqdVPAuuMrlv6Tpp5sPPH6vaNw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\maite\\Prueba\\Prueba\\Galjot.Maitena.TP2\\ClassLibrary1\\LibreriaDeClases.csproj",
+  "projectFilePath": "C:\\Users\\maite\\source\\repos\\Galjot.Maitena.TP2\\ClassLibrary1\\LibreriaDeClases.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\maite\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\maite\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

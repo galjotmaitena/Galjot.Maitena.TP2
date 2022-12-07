@@ -15,11 +15,12 @@ namespace FrmGenerala
         protected ValidarTxt delegado;
         private ListaJugadores lista;
         private List<Jugador> listaJugadores;
-        private string nombreJugadorForm;
 
-        public string NombreJugador
+        private Jugador jugador;
+
+        public Jugador JugadorForm
         {
-            get { return this.nombreJugadorForm; }
+            get { return this.jugador; }
         }
 
         public FrmLogin()
@@ -36,32 +37,42 @@ namespace FrmGenerala
 
         private void btnIngresar_Click(object sender, EventArgs e)
         {
-            if(delegado.Invoke(txtNombre) || delegado.Invoke(txtClave))
+            if(!(delegado.Invoke(txtNombre) || delegado.Invoke(txtClave)))
             {
-                MessageBox.Show("Ingreso SOLO numeros");
-            }
+                Jugador unJugador = new Jugador(this.txtNombre.Text, this.txtClave.Text, 0, 0);
 
-            Jugador unJugador = new Jugador(this.txtNombre.Text, this.txtClave.Text, 0);
-
-            if (this.lista.ProbarConexion())
-            {
-                this.listaJugadores = this.lista.Traer();
-
-                foreach (Jugador item in listaJugadores)
+                if (this.lista.ProbarConexion())
                 {
-                    if (item == unJugador)
+                    this.listaJugadores = this.lista.Traer();
+
+                    foreach (Jugador item in listaJugadores)
                     {
-                        MessageBox.Show("Se encontro al usuario");
+                        if (item == unJugador)
+                        {
+                            this.jugador = item;
 
-                        this.nombreJugadorForm = unJugador.Nombre;
+                            this.DialogResult = DialogResult.OK;
 
-                        this.DialogResult = DialogResult.OK;
+                            break;
+                        }
                     }
+
+                    if (this.jugador is null)
+                    {
+                        MessageBox.Show("Usuario no encontrado");
+                    }
+                    else
+                    {
+                        FrmPerfil formPerfil = new FrmPerfil(this.JugadorForm);
+                        formPerfil.Show();
+                        this.Close();
+                    }  
                 }
-            }
-            else
-            {
-                MessageBox.Show("Error");
+                else
+                {
+                    MessageBox.Show("Error");
+                }
+                
             }
         }
 

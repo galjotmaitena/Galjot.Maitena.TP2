@@ -15,12 +15,21 @@ namespace FrmGenerala
     public partial class FrmRegistrarse : FrmLogin
     {
         private ListaJugadores lista;
+        private List<Jugador> listaAux;
         
         public FrmRegistrarse()
         {
             InitializeComponent();
             this.lista = new ListaJugadores();
+            this.listaAux = new List<Jugador>();
+        }
 
+        private void FrmRegistrarse_Load(object sender, EventArgs e)
+        {
+            if(this.lista.ProbarConexion())
+            {
+                this.listaAux = this.lista.Traer();
+            }
         }
 
         private void btnRegistrar_Click(object sender, EventArgs e)
@@ -38,8 +47,8 @@ namespace FrmGenerala
                     auxiliar = Sexo.Hombre;
                 }
 
-                Jugador unJugador = new Jugador(this.txtNombre.Text, this.txtClave.Text, auxiliar);
-                MessageBox.Show(unJugador.ToString());
+                Jugador unJugador = new Jugador(this.txtNombre.Text, this.txtClave.Text, auxiliar, this.lista.UltimoID+1);
+                //MessageBox.Show(unJugador.ToString());
 
                 if (this.lista.ProbarConexion())
                 {
@@ -51,8 +60,6 @@ namespace FrmGenerala
                 {
                     MessageBox.Show("Error");
                 }
-
-
             }
         }
 

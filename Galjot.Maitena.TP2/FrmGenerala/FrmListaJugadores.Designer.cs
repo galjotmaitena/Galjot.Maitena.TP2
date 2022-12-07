@@ -29,45 +29,69 @@ namespace FrmGenerala
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmListaJugadores));
             this.lstJugadores = new System.Windows.Forms.ListBox();
-            this.btnVer = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.btnAceptar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lstJugadores
             // 
+            this.lstJugadores.Font = new System.Drawing.Font("Consolas", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lstJugadores.FormattingEnabled = true;
-            this.lstJugadores.ItemHeight = 20;
-            this.lstJugadores.Location = new System.Drawing.Point(12, 12);
+            this.lstJugadores.ItemHeight = 22;
+            this.lstJugadores.Location = new System.Drawing.Point(21, 90);
             this.lstJugadores.Name = "lstJugadores";
-            this.lstJugadores.Size = new System.Drawing.Size(754, 384);
+            this.lstJugadores.Size = new System.Drawing.Size(295, 246);
             this.lstJugadores.TabIndex = 0;
             // 
-            // btnVer
+            // label1
             // 
-            this.btnVer.Location = new System.Drawing.Point(672, 409);
-            this.btnVer.Name = "btnVer";
-            this.btnVer.Size = new System.Drawing.Size(94, 29);
-            this.btnVer.TabIndex = 1;
-            this.btnVer.Text = "button1";
-            this.btnVer.UseVisualStyleBackColor = true;
-            this.btnVer.Click += new System.EventHandler(this.btnVer_Click);
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Cooper Black", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(21, 26);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(295, 27);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Seleccione al oponente:";
+            // 
+            // btnAceptar
+            // 
+            this.btnAceptar.BackColor = System.Drawing.Color.Gold;
+            this.btnAceptar.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnAceptar.ForeColor = System.Drawing.Color.Purple;
+            this.btnAceptar.Location = new System.Drawing.Point(172, 376);
+            this.btnAceptar.Name = "btnAceptar";
+            this.btnAceptar.Size = new System.Drawing.Size(144, 43);
+            this.btnAceptar.TabIndex = 3;
+            this.btnAceptar.Text = "Aceptar";
+            this.btnAceptar.UseVisualStyleBackColor = false;
+            this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
             // 
             // FrmListaJugadores
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btnVer);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(357, 450);
+            this.Controls.Add(this.btnAceptar);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.lstJugadores);
             this.Name = "FrmListaJugadores";
-            this.Text = "FrmListaJugadores";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Lista de Jugadores";
+            this.Load += new System.EventHandler(this.FrmListaJugadores_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.ListBox lstJugadores;
-        private System.Windows.Forms.Button btnVer;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnAceptar;
     }
 }

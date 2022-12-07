@@ -15,24 +15,48 @@ namespace FrmGenerala
     public partial class FrmListaJugadores : Form
     {
         private ListaJugadores lista;
-        public FrmListaJugadores()
+        private Jugador unJugador;
+        private Jugador jugadorLogeado;
+
+        public FrmListaJugadores(Jugador jugadorLogeado)
         {
             InitializeComponent();
-            lista = new ListaJugadores();
+
+            this.lista = new ListaJugadores();
+            this.jugadorLogeado = jugadorLogeado;
         }
 
-        private void btnVer_Click(object sender, EventArgs e)
+        public Jugador JugadorForm
         {
-            if(lista.ProbarConexion())
+            get { return this.unJugador; }
+        }
+
+        private void FrmListaJugadores_Load(object sender, EventArgs e)
+        {
+            if (lista.ProbarConexion())
             {
                 foreach (Jugador item in lista.Traer())
                 {
-                    this.lstJugadores.Items.Add(item);
+                    if(item != this.jugadorLogeado)
+                    {
+                        this.lstJugadores.Items.Add(item);
+                    }
+                    
                 }
             }
         }
 
-        
-     
+        private void btnAceptar_Click(object sender, EventArgs e)
+        {
+            int index = this.lstJugadores.SelectedIndex;
+
+            if(index == -1)
+            {
+                return;
+            }
+
+            this.unJugador = (Jugador)this.lstJugadores.SelectedItem;
+            this.DialogResult = DialogResult.OK;
+        }
     }
 }

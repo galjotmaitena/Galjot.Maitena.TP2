@@ -24,22 +24,31 @@ De todas formas, en caso de alguna duda, la aplicacion consta de un boton que le
 
 ## _Diagrama de clases 📜_
 
+![image](https://user-images.githubusercontent.com/86839503/206127093-bf8c3df9-b653-43c8-8d11-38c01189fc54.png)
+
 ## _Justificacion tecnica 🤯️_
+
 `SQL`
 Utilizo SQL para llevar un registro de los jugadores, para esto tengo una clase ListaJugadores en la cual empleo los metodos necesarios para traer la lista de la base de datos, agregar nuevos jugadores y/o modificarlos.
+
 `Manejo de excepciones`
 Utilizo bloques try-catch en lugares esenciales del codigo: a la hora de manejar SQL, serializacion, archivos y task. Capturando asi posibles excepciones en los sitios mas propensos a generarlos.
+
 `Unit testing`
 
 `Generics`
 Dentro de las entidades, se encuentra una clase generica abstracta llamada BaseDeDatos<T> donde implemento metodos a utilizarse para la conexion con SQL. En este caso la clase ListaJugadores mencionada anteriormente, hereda de esta clase generica, donde T vendria a ser de tipo Jugador. De esta forma, en caso de necesitar usar SQL para otro tipo de dato, podre recurrir a usar esta entidad generica. 
+
 `Serializacion`
 Dentro de la aplicacion se encuentra una clase estatica denominada Reglas, que posee justamente las reglas del juego. Aqui las reglas son creadas, serializadas y deserializadas en formato json.
+
 `Escritura de archivos`
 
 `Interfaces`
 Retomando la serializacion, el programa posee una interfaz llamada ISerializacion donde se encuentran las firmas de los metodos para serializar y deserializar. En este caso utilizo la serializacion en formato json, sin embargo tranquilamente podria usarla en xml, por eso veo factible la utilizacion de interfaces en este caso, ya que ambos tipos de serializacion usan la misma firma.
+
 `Delegados y eventos`
 Utilizo delegados para la validacion de los puntos ingresados por el usuario a la hora de registrar una jugada. Ademas, se emplea un delegado cuya funcion es la de validar el ingreso correcto de numeros en los textbox del Login y Registro.
+
 `Task`
 
